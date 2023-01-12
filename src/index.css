@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body,main{
+    height:100%;
+}
+
+body{
+    background-color: #f7efd2;
+    font-family: "Ubuntu";
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image__container{
+    width:400px;
+    padding:20px;
+    border:3px solid #475c6c;
+}
+
+.image__container img{
+    width: 100%;
+    border-radius: 10px ;
+}
+
+.btn__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:3px solid #475c6c;
+    border-top: none;
+    padding:10px 20px;
+}
+
+.shuffle{
+    cursor:pointer;
+    color:white;
+    background-color: #475c6c;
+    border:none;
+    border-radius: 30px;
+    padding:10px 20px;
+    transition: 500ms ease-in all;
+}
+
+.shuffle:hover{
+    background-color: white;
+    color:#2e3e49
+}
+
+.shuffle:hover i{
+    background-color: white;
+}
+
+.shuffle i{
+    background-color: #2f404dfb;
+    padding:5px;
+    margin-right: 10px;
+    border-radius: 15px;
+    transition: 500ms ease-in all;
+
+}
